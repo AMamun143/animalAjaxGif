@@ -1,0 +1,92 @@
+body, html {
+	font-family: 'Noto Sans', sans-serif;
+	background-color: black;
+	margin-top: 10px;
+	color: white;
+}
+
+#wrapper {
+	background-image: url('../images/blueStripes.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#header h1 {
+	font-size: 5em;
+	padding: 20px 0px;
+	background-color: rgba(0,0,0,.5);
+	margin-bottom: 20px;
+}
+
+#header h2 {
+	margin:20px 0px;
+	font-size: 2em;
+	padding-top: 10px;
+}
+
+#results {
+	padding-bottom:5px 0px 10px 0px;
+	background-color: rgba(0,0,0,.5);
+	margin-top: 10px;
+	min-height: 100px;
+}
+
+#searchBar {
+	color: black;
+}
+
+#recent, #images, #header {
+	text-align: center;
+}
+
+#recent {
+	border-bottom:5px solid black;
+	min-height: 50px;
+}
+
+.recentGif {
+	margin:15px;
+}
+
+input[type="radio"] {
+	margin: 0px 3px 0px 10px;
+}
+
+#images {
+	overflow-y: hidden; 
+	overflow-x: scroll;
+	white-space: nowrap;
+	height: 400px;
+	background-color: rgba(0,0,0,.7);
+	-webkit-overflow-scrolling: touch;
+}
+
+.currentImages {
+	display: inline-block;
+	border-radius:15px;
+	height: 370px;
+	width: auto;
+}
+
+.imageContainer {
+	display: inline-block;
+	margin: 10px;
+}
+
+#next {
+	display: inline-block;
+}
+
+#next h2 {
+	font-size: 2em;
+	position: relative;
+	bottom:180px;
+	padding: 100px 10px;
+	margin: 0 10px;
+	border-radius: 20px;
+	background-color: rgba(255,255,255,.6);
+}
+
+#next h2:hover {
+	background-color: rgba(255,255,255,.3);
+}
